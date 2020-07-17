@@ -1,0 +1,11 @@
+\begin{tabular}{lll}
+\toprule
+          Hyperparameter & readmission\_30 &  LOS\_7 \\
+\midrule
+              Batch Size &            512 &    512 \\
+     Dropout Probability &           0.25 &   0.25 \\
+        Hidden Dimension &            128 &    128 \\
+           Learning Rate &          1e-05 &  1e-05 \\
+ Number of Hidden Layers &              3 &      3 \\
+\bottomrule
+\end{tabular}

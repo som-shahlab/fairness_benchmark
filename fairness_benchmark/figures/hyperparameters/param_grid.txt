@@ -1,0 +1,11 @@
+\begin{tabular}{ll}
+\toprule
+          Hyperparameter &                    Grid \\
+\midrule
+              Batch Size &         [128, 256, 512] \\
+     Dropout Probability &  [0.0, 0.25, 0.5, 0.75] \\
+        Hidden Dimension &              [128, 256] \\
+           Learning Rate &  [0.001, 0.0001, 1e-05] \\
+ Number of Hidden Layers &               [1, 2, 3] \\
+\bottomrule
+\end{tabular}

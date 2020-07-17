@@ -1,0 +1,16 @@
+*.npz
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+/__pycache__/*
+*.pyc
+*.chk
+*.tar.gz
+*.log
+*.RData
+*.swp
+.idea
+*.err
+*.out
+*.egg*
+*deprecated*
+*dask-worker-space*

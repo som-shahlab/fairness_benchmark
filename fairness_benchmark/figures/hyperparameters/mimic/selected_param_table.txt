@@ -1,0 +1,11 @@
+\begin{tabular}{lllll}
+\toprule
+          Hyperparameter & los\_icu\_3days & los\_icu\_7days & mortality\_hospital & mortality\_icu \\
+\midrule
+              Batch Size &           128 &           512 &                128 &           128 \\
+     Dropout Probability &          0.75 &          0.75 &               0.75 &          0.75 \\
+        Hidden Dimension &           256 &           128 &                256 &           256 \\
+           Learning Rate &         1e-05 &         1e-05 &              1e-05 &         1e-05 \\
+ Number of Hidden Layers &             1 &             3 &                  1 &             1 \\
+\bottomrule
+\end{tabular}
