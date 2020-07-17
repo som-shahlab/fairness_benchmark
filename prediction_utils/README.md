@@ -12,7 +12,6 @@ This library is composed of the following modules:
 0. If you are Nero a pre-existing conda environment is available at `/share/pi/nigam/envs/anaconda/envs/prediction_utils`. Otherwise, continue with the following steps.
 1. Clone the repository
 2. `pip install -e .` from within the directory
-3. If you plan to use OHDSI feature extractors, install the FeatureExtraction package to your R installation: https://github.com/OHDSI/FeatureExtraction
 
 ### Getting Started
 * See the `vignettes` directory for examples of basic usage
@@ -21,7 +20,6 @@ This library is composed of the following modules:
 
 #### extraction_utils
 * Connect to databases using the BigQuery client library or through the python DBAPI via SqlAlchemy
-* Extract clinical features for machine learning using custom code or with the OHDSI feature extractors
 
 #### cohorts
 * The following cohorts are implemented
