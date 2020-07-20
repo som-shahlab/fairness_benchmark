@@ -38,6 +38,8 @@ python -m prediction_utils.extraction_utils.extract_features \
     --index_date_field=$INDEX_DATE_FIELD \
     --row_id_field=$ROW_ID_FIELD \
     --merged_name=$MERGED_NAME \
+    --time_bins="-365" "-180" "-90" "-30" "0" \
+    --time_bins_hourly="-168" "-72", "-24", "-12", "-4", "0" \
     --binary \
     --featurize \
     --no_cloud_storage \
