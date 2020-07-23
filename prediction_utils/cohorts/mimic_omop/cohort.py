@@ -160,8 +160,6 @@ class MIMICDemographicsCohort(BQCohort):
                 SELECT t1.* EXCEPT(concept_id), concept_id as race_eth_concept_id, concept_name as race_eth_concept_name
                 FROM concept_ancestors t1
                 INNER JOIN {dataset_project}.{dataset}.concept USING (concept_id)
-                --WHERE concept_id in (8527, 8515, 8516, 8557, 8657, 86571, 4188159)
-                -- WHERE concept_id in (8527, 8515, 8516, 86571, 4188159)
                 WHERE concept_id in (8527)
             ),
             demographics_result AS (
